@@ -47,9 +47,16 @@ const LineChart = () => {
           color: '#FFFFFF',
           height: 0,
         },
-        
-        categories: [ 0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        tickAmount: 11,
+        title: {
+          text: 'Date',
+          style: {
+            color: '#FFFFFF',
+            fontSize: '15px',
+            fontWeight: 400,
+          },
+        },
+        categories: [ 0,1, 2, 3, 4, 5, 6, 7, 8],
+        tickAmount: 8,
         labels: {
           formatter: function (value) {
             return value === 0 ? '' : value;
@@ -93,6 +100,14 @@ const LineChart = () => {
       yaxis: {
         min: 0,
         max: 3000,
+        title: {
+          text: 'Price',
+          style: {
+            color: '#FFFFFF',
+            fontSize: '15px',
+            fontWeight: 400,
+          },
+        },
         ticks: [0, 1000, 2000, 3000],
         tickAmount: 3,
         labels: {
