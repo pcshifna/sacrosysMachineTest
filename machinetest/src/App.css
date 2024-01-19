@@ -1,0 +1,51 @@
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  background-color: black;
+}
+
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title  {
+  background:#8d918e !important;
+  border:none !important;
+  
+ 
+}
+.apexcharts-tooltip-title ,.apexcharts-tooltip-series-group {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apexcharts-tooltip-text{
+  padding-right: 7px;
+}
+.apexcharts-tooltip-series-group::after{
+content: 'AED';
+}
+.apexcharts-tooltip.apexcharts-theme-light{
+
+  background: #8d918e !important;
+  width: 100px;
+}
+.apexcharts-tooltip {
+  position: absolute;
+  top:100px;
+}
+.apexcharts-tooltip-marker {
+display: none !important;
+}
+.apexcharts-marker {
+  position: relative;
+}
+.apexcharts-xaxistooltip.apexcharts-active {
+  display: none;
+}
