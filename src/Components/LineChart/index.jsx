@@ -55,7 +55,7 @@ const LineChart = () => {
             fontWeight: 400,
           },
         },
-        categories: [ 0,1, 2, 3, 4, 5, 6, 7, 8],
+        categories: [ 0,1, 2, 3, 4, 5, 6, 7, 8,9],
         tickAmount: 8,
         labels: {
           formatter: function (value) {
